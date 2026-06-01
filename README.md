@@ -142,27 +142,3 @@ We believe in open source. By sharing this software under the AGPL license, we e
 2. If you modify this tool and run it as part of an online service (e.g. an e-book conversion website), you **must** make your modified source code available to users of that service.
 
 For full terms and conditions, please consult the [LICENSE](https://github.com/bariskayadelen/epublift-py/blob/main/LICENSE) file in the root of this repository.
-
----
-
-## 📖 Background & Project Birth (Archival)
-
-Below are the original prompts that catalyzed the development of this utility.
-
-### Turkish Prompt (Original)
-> Bir tane program yazmanı istiyorum. Aşağıdaki özellikleri sağlamasını istiyorum.
-> 1. Orijinal dosyayı korusun, dosyayı farklı bir yere örneğin /tmp klasörüne açsın. Burada aşağıdaki işlemleri yapsın, işi bitince yeniden epub olarak paketlesin.
-> 2. Verilen epub dosyasını açarak içeriğindeki resimleri webp formatuna dönüştürüp yeniden sıkıştırma yapsın.
-> 3. Verilen epub dosyanı epub v3.3'e uygun şekilde yeniden dosya yapısını güncellesin.
-> 4. İlk dosya ve son dosyanın boyutlarını karşılaştırıp bunu bir rapor olarak txt dosyasına yazsın.
-> 
-> İstediğin programlama dilini kullanabilirsin. Programı yazdıktan sonra dokümente et ve nasıl kullanacağımı ben oradan öğreneceğim ve test edeceğim.
-
-### English Translation
-> I want you to write a program that has the following features:
-> 1. Preserve the original file, extract it to a different location, for example, the /tmp folder, perform the following operations there, and then repackage it as an epub file.
-> 2. Open the given epub file, convert the images inside to webp format, and recompress them.
-> 3. Update the file structure of the given epub file to comply with EPUB v3.3.
-> 4. Compare the sizes of the first and last files and write this as a report to a text file.
-> 
-> You can use any programming language you want. After writing the program, document it so I can learn how to use it and test it.
