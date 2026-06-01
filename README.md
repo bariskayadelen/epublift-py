@@ -88,14 +88,14 @@ pip install pillow
 ### Basic Command
 
 ```bash
-python3 epub_booster.py -i <path_to_input_epub>
+python3 epublift.py -i <path_to_input_epub>
 ```
 *This command modernizes the input file and saves it in the same directory as `<input_name>_boosted.epub`, generating a performance report in `<input_name>_report.txt`.*
 
 ### Advanced Options
 
 ```bash
-python3 epub_booster.py -i book.epub -o optimized_book.epub -q 85 -r stats_report.txt
+python3 epublift.py -i book.epub -o optimized_book.epub -q 85 -r stats_report.txt
 ```
 
 ### Command Line Interface Options
@@ -111,7 +111,7 @@ python3 epub_booster.py -i book.epub -o optimized_book.epub -q 85 -r stats_repor
 
 ## 🧪 Quick Sandbox Testing
 
-We have included a test EPUB generator script to help you safely evaluate the booster. It builds a valid legacy EPUB 2.0 file containing heavy test images and outdated structures.
+We have included a test EPUB generator script to help you safely evaluate the ePubLifter. It builds a valid legacy EPUB 2.0 file containing heavy test images and outdated structures.
 
 ### Step 1: Generate the Sample EPUB 2.0 File
 ```bash
@@ -119,9 +119,9 @@ python3 test_epub_generator.py
 ```
 *This creates a new legacy file named `sample_epub2.epub` in your root folder.*
 
-### Step 2: Run the Booster
+### Step 2: Run the ePubLifter
 ```bash
-python3 epub_booster.py -i sample_epub2.epub
+python3 epublift.py -i sample_epub2.epub
 ```
 *This converts the book, modernizes the structure to EPUB 3.3, and produces `sample_epub2_boosted.epub` along with `sample_epub2_report.txt`.*
 
@@ -141,7 +141,7 @@ We believe in open source. By sharing this software under the AGPL license, we e
 1. Anyone is free to use, modify, and distribute this tool.
 2. If you modify this tool and run it as part of an online service (e.g. an e-book conversion website), you **must** make your modified source code available to users of that service.
 
-For full terms and conditions, please consult the [LICENSE](file:///Users/baris/Documents/Projects/epub_version_booster/LICENSE) file in the root of this repository.
+For full terms and conditions, please consult the [LICENSE](https://github.com/bariskayadelen/epublift-py/blob/main/LICENSE) file in the root of this repository.
 
 ---
 
